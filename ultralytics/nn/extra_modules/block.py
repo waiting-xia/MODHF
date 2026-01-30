@@ -19,7 +19,6 @@ __all__= ['HyperComputeModule', 'MANet', 'DyHeadBlock', 'CMFM']
 
 
 
-######################################## Hyper-YOLO start ########################################
 
 class MANet(nn.Module):
 
@@ -101,10 +100,7 @@ class HyperComputeModule(nn.Module):
 
         return x
 
-######################################## Hyper-YOLO end ########################################
 
-
-######################################## DyHead begin ########################################
 try:
     from mmcv.cnn import build_activation_layer, build_norm_layer
     from mmcv.ops.modulated_deform_conv import ModulatedDeformConv2d
